@@ -32,24 +32,54 @@ html {
 	font-size: 3em;
 }
 
+
 /* Custom Styles */
 
-main {
+.section {
 	display: flex;
-	flex-direction: column;
 	min-height: 100vh;
-	justify-content: center;
+	padding: 50px;
+}
+
+.home {
+	text-align: center;
 	padding: 0 30px;
+}
+
+.about-me {
+	/*flex-direction: column;*/
+}
+
+.title {
 	text-align: center;
 }
 
-main > .intro {
-	font-family: 'Reem Kufi', sans-serif;
-	font-size: 3.75em;
-	font-weight: 600;
+.column-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
-main > .tagline {
+.row-container {
+	display: flex;
+	flex-direction: row;
+}
+
+.content {
+	padding: 10px;
+}
+
+
+.intro {
+	font-family: 'Caveat', sans-serif;
+	color: #93c47d;
+	font-size: 3.75em;
+	font-weight: bold;
+}
+
+.tagline {
+	font-family: 'Dancing Script';
+	color: #c288ce;
 	font-size: 1.5rem;
 	margin: 1.5rem 0;
 	font-weight: 100;

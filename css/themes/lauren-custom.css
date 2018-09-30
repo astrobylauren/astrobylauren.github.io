@@ -1,0 +1,38 @@
+/* Theme */
+
+main {
+    background: #E8EAF6;
+    color: #303F9F;
+}
+
+.icons-social a {
+    color: #c288ce;
+}
+
+.icons-social a svg path{
+    fill: #303F9F;
+}
+
+
+.navbar {
+  overflow: hidden;
+  background-color: #93c47d;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #E8EAF6;
+  color: black;
+}
