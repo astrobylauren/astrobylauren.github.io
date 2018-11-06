@@ -26,7 +26,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   z-index: 2;
   font-size: 18px;
-  background-image: linear-gradient(260deg, #2A85BC 0%, #044059 100%);
+  background-image: linear-gradient(260deg, #93c47d 0%, #75ad5b 100%);
 }
 
 #main-nav {
@@ -112,11 +112,11 @@ h1, h2, h3, h4, h5, h6 {
 
 /*SECTION HEADERS*/
 #workHeader {
-  background-image: url("../img/code.jpg");
+  background-image: url("../img/aquarius_green.jpg");
 }
 
 #contactHeader {
-  background-image: url("../img/arcade.jpg");
+  background-image: url("../img/milkywaybanner.jpg");
 }
 
 /*HERO SECTION*/
@@ -128,8 +128,9 @@ h1, h2, h3, h4, h5, h6 {
   height: 50vh;
   width: 100%;
   height: 100vh;
-  background-image: url("../img/hero.jpg");
+  /*background-image: url("../img/hero.jpg");*/
   background-size: cover;
+  background-color: #E8EAF6;
 }
 
 #nameOverlay {
@@ -146,15 +147,17 @@ h1, h2, h3, h4, h5, h6 {
 .name {
   margin: 0 auto;
   font-size: 2em;
+  font-family: 'Dancing Script';
   text-align: center;
-  background-color: grey;
-  color: white;
+  /*background-color: grey;*/
+  color: #c288ce;
   padding: 0 2vw;
 }
 
 /*ABOUT SECTION*/
 #about {
-  padding-top: 5vh;
+  padding-top: 15vh;
+  padding-bottom: 20vh;
 }
 
 .aboutIcon {
@@ -176,6 +179,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #aboutText {
   width: 50%;
+  color: #44752d;
 }
 
 .aboutGrid {
@@ -244,12 +248,11 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 2em;
   line-height: 1.2em;
   padding: 10px;
-  background: #2A85BC;
-  color: #fff;
+  color: #93c47d;
   margin-right: 2vw;
   margin-bottom: 10px !important;
   padding-bottom: 10px !important;
 }
 .sociali:hover, .sociali:focus {
-  background: #044059;
+  color: #713a7c;
 }
