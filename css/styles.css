@@ -48,6 +48,8 @@ html {
 
 .about-me {
 	/*flex-direction: column;*/
+	display: flex;
+	flex-flow: row wrap;
 }
 
 .title {
@@ -98,4 +100,12 @@ html {
 	margin-left: 0.675rem;;
 	width: 2.65rem;
 	height: 2.65rem;
+}
+
+.image{
+	order: 1;
+}
+
+.article{
+	order: 2;
 }
